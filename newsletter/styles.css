@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+nav {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid black 1px;
+}
+
+.nav-row {
+  display: flex;
+  flex-wrap: wrap;
+  width:33.3%;
+}
+
+.nav-item {
+  display:flex;
+  padding: 50px;
+  width: 33.3%;
+  text-align: center;
+}
+
+body {
+  background-image:url("../images/background-2.jpg");
+  font-family: 'Merriweather', serif;
+}
+
+form {
+  border: solid black;
+  background-color: white;
+  padding: 100px;
+  margin-top:200px;
+  margin-left:20%;
+  margin-right:20%;
+  font-size: 30px;
+}
